@@ -64,7 +64,7 @@ nav a{
     background-image:url("../images/header_bg.png"),url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right , left;
-BACK
+
 
     
 }
@@ -228,4 +228,68 @@ footer{
     text-align:left;
     color: #757575;
     font-size: 18px;
+}
+.hide{
+   display: none;
+}
+
+/* responsive mobile */
+@media screen and (max-width:576px) {
+        .header  {
+            flex-direction: column;
+            
+        }
+        .banner{
+            flex-direction: column;
+            flex-wrap: nowrap
+            
+            
+        }
+       
+    .banner{
+        padding: 20px;
+    }
+    .banner .profile-pic{
+        width:100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .profile-pic{
+       
+    }
+    .banner-content  .btn-primary{
+        margin-bottom: 10px;
+    }
+    .bnr-cntt-head2{
+        font-size: 50px;
+    }
+    nav li{
+        margin-left: 0px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 50px;
+        margin: 0px;
+      ;
+
+    }
+    main{
+    width: 320px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-content  .btn-primary{
+        margin-bottom: 10px;
+}
+main{
+    width: 800px;
+}
+.about{
+    margin:  20px 0px 0px 0px;
+    padding: 30px;
+}
 }
