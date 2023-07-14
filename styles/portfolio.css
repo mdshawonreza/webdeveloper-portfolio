@@ -229,9 +229,7 @@ footer{
     color: #757575;
     font-size: 18px;
 }
-.hide{
-   display: none;
-}
+
 
 /* responsive mobile */
 @media screen and (max-width:576px) {
@@ -273,13 +271,31 @@ footer{
     .about{
         padding: 50px;
         margin: 0px;
-      ;
-
     }
     main{
     width: 320px;
     }
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do{
+        padding: 30px ;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .footer-column{
+        width: 80%;
+        
+    }
+   
+
 }
+
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .banner-content  .btn-primary{
@@ -291,5 +307,16 @@ main{
 .about{
     margin:  20px 0px 0px 0px;
     padding: 30px;
+}
+.skills-container{
+    flex-direction: column;
+}
+.resume-container{
+    flex-direction: column;
+}
+footer{
+    flex-direction: column;
+   padding-right: 0px;
+   
 }
 }
