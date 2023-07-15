@@ -292,6 +292,9 @@ footer{
         width: 80%;
         
     }
+    .profile-pic{
+        margin-bottom: -20px;
+    }
    
 
 }
@@ -318,5 +321,8 @@ footer{
     flex-direction: column;
    padding-right: 0px;
    
+}
+.profile-pic{
+    margin-bottom: -87px;
 }
 }
